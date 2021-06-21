@@ -13,34 +13,27 @@
     padding: 5px 5px;
 }
 
-#updateBtn {
-    padding: 5px 10px;
-}
+#updateBtn {padding: 5px 10px;}
 
+#scriptCheck,
 #errorMsg {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#sliderContainer {
-    width: 100%;
-}
+#sliderContainer {width: 100%;}
 
 #slider0,
 #slider1,
 #slider2,
 #slider3,
 #slider4,
-#slider5 {
-    height:20px;
-}
+#slider5 {height:20px;}
 
 #slider2,
 #slider3,
 #slider4,
-#slider5 {
-    width:20px;
-}
+#slider5 {width:20px;}
 
 #slider0 {background-color: hsl(0, 100%, 50%);}
 #slider1 {background-color: hsl(240, 100%, 50%); top:20px;}
@@ -72,4 +65,4 @@
     height: 10%;
 }
 
-#spacer {height: 10000px}
+#spacer {height: 10000px;}

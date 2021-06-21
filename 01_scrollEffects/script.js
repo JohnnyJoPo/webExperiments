@@ -116,6 +116,7 @@ function init(){
     addEvents();
     createWheels();
     setValues();
+    document.getElementById("scriptCheck").remove();
 }
 
 if (window.addEventListener){
