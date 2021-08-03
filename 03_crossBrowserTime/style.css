@@ -1,0 +1,11 @@
+button, #selectDate {
+    margin: 0 0 20px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}

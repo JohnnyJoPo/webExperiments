@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross Browser Time</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <input type="date" id="selectDate">
+        <br>
+        <button type="button" id="updateBtn">Update</button>
+        <table>
+            <tr>
+                <th></th>
+                <th>Date Object</th>
+                <th>Day</th>
+                <th>Month</th>
+                <th>Year</th>
+                <th>Timezone Offset (minutes)</th>
+            </tr>
+            <tr>
+                <td>System</td>
+                <td class="sysData"></td>
+                <td class="sysData"></td>
+                <td class="sysData"></td>
+                <td class="sysData"></td>
+                <td class="sysData"></td>
+            </tr>
+            <tr>
+                <td>Selected</td>
+                <td class="selData"></td>
+                <td class="selData"></td>
+                <td class="selData"></td>
+                <td class="selData"></td>
+                <td class="selData"></td>
+            </tr>
+        </table>
+
+        <p class="data"></p>
+        <p class="data"></p>
+        <p class="data"></p>
+        <p class="data"></p>
+        <p class="data"></p>
+        <p class="data"></p>
+        <br>
+        <p class="data"></p>
+        <p class="data"></p>
+        <p class="data"></p>
+        <p class="data"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
