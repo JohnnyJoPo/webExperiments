@@ -48,30 +48,33 @@ function setTimes(){
     let parseDate = document.getElementsByClassName("parsedDate");
     parseIn[0].innerText = new Date(1580515200000);
     parseIn[1].innerText = "\"2020-02-01\"";
-    parseIn[2].innerText = "\"2020 02 01\"";
-    parseIn[3].innerText = "\"2020 2 1\"";
-    parseIn[4].innerText = "2020, 2, 1";
-    parseIn[5].innerText = "\"2020/02/01\""
-    parseIn[6].innerText = "\"2020/2/1\""
-    parseIn[7].innerText = "\"2020-02-01T00:00:00.000+00:00\""
+    parseIn[2].innerText = "\"2020-2-1\"";
+    parseIn[3].innerText = "\"2020 02 01\"";
+    parseIn[4].innerText = "\"2020 2 1\"";
+    parseIn[5].innerText = "2020, 2, 1";
+    parseIn[6].innerText = "\"2020/02/01\""
+    parseIn[7].innerText = "\"2020/2/1\""
+    parseIn[8].innerText = "\"2020-02-01T00:00:00.000+00:00\""
     
     parseOut[0].innerText = Date.parse(new Date(1580515200000));
     parseOut[1].innerText = Date.parse("2020-02-01");
-    parseOut[2].innerText = Date.parse("2020 02 01");
-    parseOut[3].innerText = Date.parse("2020 2 1");
-    parseOut[4].innerText = Date.parse(2020, 2, 1);
-    parseOut[5].innerText = Date.parse("2020/02/01");
-    parseOut[6].innerText = Date.parse("2020/2/1");
-    parseOut[7].innerText = Date.parse("2020-02-01T00:00:00.000+00:00");
+    parseOut[2].innerText = Date.parse("2020-2-1");
+    parseOut[3].innerText = Date.parse("2020 02 01");
+    parseOut[4].innerText = Date.parse("2020 2 1");
+    parseOut[5].innerText = Date.parse(2020, 2, 1);
+    parseOut[6].innerText = Date.parse("2020/02/01");
+    parseOut[7].innerText = Date.parse("2020/2/1");
+    parseOut[8].innerText = Date.parse("2020-02-01T00:00:00.000+00:00");
 
     parseDate[0].innerText = new Date(Date.parse(new Date(1580515200000)));
     parseDate[1].innerText = new Date(Date.parse("2020-02-01"));
-    parseDate[2].innerText = new Date(Date.parse("2020 02 01"));
-    parseDate[3].innerText = new Date(Date.parse("2020 2 1"));
-    parseDate[4].innerText = new Date(Date.parse(2020, 2, 1));
-    parseDate[5].innerText = new Date(Date.parse("2020/02/01"));
-    parseDate[6].innerText = new Date(Date.parse("2020/2/1"));
-    parseDate[7].innerText = new Date(Date.parse("2020-02-01T00:00:00.000+00:00"));
+    parseDate[2].innerText = new Date(Date.parse("2020-2-1"));
+    parseDate[3].innerText = new Date(Date.parse("2020 02 01"));
+    parseDate[4].innerText = new Date(Date.parse("2020 2 1"));
+    parseDate[5].innerText = new Date(Date.parse(2020, 2, 1));
+    parseDate[6].innerText = new Date(Date.parse("2020/02/01"));
+    parseDate[7].innerText = new Date(Date.parse("2020/2/1"));
+    parseDate[8].innerText = new Date(Date.parse("2020-02-01T00:00:00.000+00:00"));
 }
 
 if (window.addEventListener){
